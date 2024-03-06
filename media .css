@@ -1,0 +1,38 @@
+@media screen and (max-width:1024px){
+    html{
+        font-size: 13px;
+    }
+    .container{
+        margin-inline: 3rem;
+    }
+    .home-left{
+        flex-basis: 80%;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+@media screen  and (max-width: 768px){
+    html{
+        font-size: 12px;
+    }
+    .hide{
+        display: none;
+    }
+    .home-left{
+        flex-basis: 90%;
+    }
+    .hamburger{
+        margin-top: 1rem;
+        display: inline-block;
+    }
+
+}
+@media screen  and(max-width :320px){
+
+}
+    
+
+    
